@@ -1,16 +1,16 @@
-public class Box {
+public class Box<T> {
 
-    private Object object;
+    private T object;
 
-    public Box(Object object) {
+    public Box(T object) {
         this.object = object;
     }
 
-    public void setObject(Object object) {
+    public void setObject(T object) {
         this.object = object;
     }
 
-    public Object getObject() {
+    public T getObject() {
         return object;
     }
 
